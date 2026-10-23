@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rahul's portfolio — software development, web projects, and things I'm learning.">
+  <meta name="theme-color" content="#fbfaf7">
+  <title>Rahul — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Rahul, home">R<span>.</span></a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="menu-toggle__label">Menu</span>
+      <span class="menu-toggle__icon" aria-hidden="true"><span></span><span></span></span>
+    </button>
+
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#home" class="nav-link is-active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link nav-link--contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Student Developer · Namakkal, Tamil Nadu, India</p>
+        <h1 id="hero-title">Hello, I am<br><span class="hero-name">Rahul<span class="hero-colon"></span></span></h1>
+        <p class="hero-summary">I’m a computer science student who enjoys turning ideas into useful, thoughtful web experiences.</p>
+        <div class="hero-actions">
+          <a class="button button--dark" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-note"><span class="note-mark" aria-hidden="true">💥</span>Currently persuing MCA </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Profile illustration">
+        <div class="portrait-frame">
+          <img src="assets/profile-pic-for-boys-profile-picture-of--removebg-preview.png" alt="Illustrated portrait of Rahul" class="portrait">
+        </div>
+        <div class="floating-note floating-note--top">
+          <span class="floating-note__index">01 / NOW</span>
+          <strong>Learning by building.</strong>
+          <span>One project at a time.</span>
+        </div>
+        <div class="floating-note floating-note--bottom">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>Open to learning opportunities</span>
+        </div>
+        <span class="hero-stamp" aria-hidden="true">BUILD<br>WITH<br>INTENT</span>
+      </div>
+      <div class="hero-bottomline"><span>PORTFOLIO · 2026</span><a href="#about">SCROLL TO EXPLORE ↓</a></div>
+    </section>
+
+    <section class="about section-shell section-pad" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="eyebrow">01 — A LITTLE ABOUT ME</p>
+        <h2 id="about-title">Eager to build things.<br><em>Learn by Practicing</em></h2>
+      </div>
+      <div class="about-content">
+        <p class="about-lead">I like understanding how things work — then trying to build them myself.</p>
+        <p>I’m doing Master of Computer Applications and exploring web development, problem-solving, and software design. I learn best by making things, finding what breaks, and improving the next version.</p>
+        <p>This portfolio is a record of that process: projects I’ve worked on, tools I’m learning, and ideas I want to take further.</p>
+        <a class="text-link" href="#contact">A little more? Say hello <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="about-aside">
+        <span class="aside-number">A—01</span>
+        <p>Less noise.<br>+Music<br><em>=Better work.</em></p>
+        <span class="aside-rule"></span>
+        <span class="aside-caption">A principle, not a finish line.</span>
+      </div>
+    </section>
+
+    <section class="skills section-shell section-pad" id="skills" aria-labelledby="skills-title">
+      <div class="section-topline">
+        <div>
+          <p class="eyebrow">02 — MY SKILLSET</p>
+          <h2 id="skills-title">Tools I’m working with.</h2>
+        </div>
+        <p class="section-intro">The skills changes as I learn. These are the technologies I’m exploring and using in projects.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-number">01</span><h3>Frontend</h3><p>HTML · CSS · JavaScript · React</p><span class="skill-arrow" aria-hidden="true">↗</span></article>
+        <article class="skill-card"><span class="skill-number">02</span><h3>Backend</h3><p>Node.js · Express · REST APIs</p><span class="skill-arrow" aria-hidden="true">↗</span></article>
+        <article class="skill-card"><span class="skill-number">03</span><h3>Data</h3><p>SQL · MySQL · MongoDB</p><span class="skill-arrow" aria-hidden="true">↗</span></article>
+        <article class="skill-card"><span class="skill-number">04</span><h3>Workflow</h3><p>Git · GitHub · VS Code</p><span class="skill-arrow" aria-hidden="true">↗</span></article>
+      </div>
+    </section>
+
+    <section class="projects section-shell section-pad" id="projects" aria-labelledby="projects-title">
+      <div class="section-topline projects-heading">
+        <div>
+          <p class="eyebrow">03 — PROJECTS</p>
+          <h2 id="projects-title">A few things I’ve built.</h2>
+        </div>
+        
+      </div>
+
+      <div class="project-list">
+        <article class="project-card project-card--featured">
+          <div class="project-visual project-visual--mockfox" aria-hidden="true">
+            <span class="visual-kicker">PROJECT / 01</span>
+            <div class="mock-window">
+              <span class="mock-window__dots">● ● ●</span>
+              <span class="mock-window__title">BookMania<span>-online book store</span></span>
+              <span class="mock-window__line"></span><span class="mock-window__line mock-window__line--short"></span>
+              <span class="mock-window__button">order book ↗</span>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-title-row"><span class="project-index">01</span><h3>BookMania</h3><span class="project-type">WEB</span></div>
+            <p>A Full Stack Online book store application system for ordering books in online.</p>
+            <div class="tag-list"><span>Next.js</span><span>TypeScript</span><span>MongoDB</span></div>
+            <div class="project-links"><a href="https://github.com/rahul-at-dev/Online-Book-Store-Application-BookMania-" target="_blank" rel="noreferrer">GitHub repository <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual project-visual--yourjob" aria-hidden="true">
+            <span class="visual-kicker">PROJECT / 02</span>
+            <div class="job-window"><span class="job-brand">Internship Recommender<span>.</span></span><span class="job-search">Find your next step</span><span class="job-row"></span><span class="job-row job-row--small"></span><span class="job-pill">Explore roles ↗</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-title-row"><span class="project-index">02</span><h3>Internship Recommender</h3><span class="project-type">FULL STACK</span></div>
+            <p>A community-focused internship searching for students to discover curated opportunities, save roles, and manage their profile.</p>
+            <div class="tag-list"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+            <div class="project-links"><a href="https://github.com/rahul-at-dev/Internship-Recommendation-Engine" target="_blank" rel="noreferrer">GitHub repository <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual project-visual--taskflow" aria-hidden="true">
+            <span class="visual-kicker">PROJECT / 03</span>
+            <div class="task-window"><span class="task-heading">Today's Expense</span><span class="task-item"><i></i> Paid Rent</span><span class="task-item"><i></i> Bought Groceries</span><span class="task-item"><i></i> Friends Outing</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-title-row"><span class="project-index">03</span><h3>Expense Tracker</h3><span class="project-type">PRODUCTIVITY</span></div>
+            <p>A application to track your daily spending and expenses.</p>
+            <div class="tag-list"><span>React</span><span>javaScript</span><span>CSS</span></div>
+            <div class="project-links"><a href="https://github.com/rahul-at-dev/Expense-Tracker-App" target="_blank" rel="noreferrer">GitHub repository <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual project-visual--documind" aria-hidden="true">
+            <span class="visual-kicker">PROJECT / 04</span>
+            <div class="doc-window"><span class="doc-icon">D.</span><span class="doc-title">Document<br>intelligence.</span><span class="doc-line"></span><span class="doc-line doc-line--short"></span><span class="doc-chip">Ask your documents</span></div>
+          </div>
+          <div class="project-info">
+            <div class="project-title-row"><span class="project-index">04</span><h3>Ragging</h3><span class="project-type">AI / RAG</span></div>
+            <p>A document Q&amp;A concept for exploring PDFs, retrieving relevant context, and answering questions with citations.</p>
+            <div class="tag-list"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+            <div class="project-links"><a href="https://github.com/rahul-at-dev/Ragging-Document_Chat_platform" target="_blank" rel="noreferrer">GitHub repository <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+      </div>
+      
+    </section>
+
+    <section class="contact section-shell section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy">
+        <p class="eyebrow">04 — YOUR TURN</p>
+        <h2 id="contact-title">Have something<br><em>in mind?</em></h2>
+        <p>I’m always glad to connect about development, projects, or a good problem to solve.</p>
+      </div>
+      <div class="contact-action">
+        <span class="contact-label">THE BEST WAY TO REACH ME</span>
+        <!-- Replace this email address with your real address. -->
+        <a class="contact-email" href="mailto:rahul.persnl04@gmail.com">rahul.persnl04@gmail.com <span aria-hidden="true">↗</span></a>
+        <p>Or find me around the web.</p>
+        <div class="social-links">
+          <a href="https://github.com/rahul-at-dev" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/rahul-ilayaraja/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <a class="wordmark" href="#home">R<span>.</span></a>
+    <p>Thank You Visiting😊</p>
+    <a class="back-to-top" href="#home">Back to top ↑</a>
+    <span class="copyright">© <span id="year">2026</span> Rahul</span>
+  </footer>
+</body>
+</html>
